@@ -12,4 +12,11 @@ $(document).ready(function () {
     const amenitiesL = Object.values(amenities);
     $('.amenities h4').text(amenitiesL.join(', '));
   });
+
+  $.get('http://0.0.0.0:5001/api/v1/status/', function (data, testStatus) {
+    if (data.status === 'OK') {
+      $('#api_status').css('background-color', '');
+      $('#api_status').addClass('available');
+    }
+  });
 });
