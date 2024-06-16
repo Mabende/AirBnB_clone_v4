@@ -23,4 +23,8 @@
       400:
         description: Not a valid JSON or missing name
       201:
+<<<<<<< HEAD
         description: Request completed successfully
+=======
+        description: Request completed successfully
+>>>>>>> upstream/master

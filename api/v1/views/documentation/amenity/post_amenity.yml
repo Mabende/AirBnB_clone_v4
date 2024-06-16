@@ -16,4 +16,8 @@
       400:
         description: Not a JSON
       201:
+<<<<<<< HEAD
         description: request executed successfully
+=======
+        description: request executed successfully
+>>>>>>> upstream/master

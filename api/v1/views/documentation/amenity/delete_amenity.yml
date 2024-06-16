@@ -17,4 +17,8 @@
       404:
         description: place not found / amenity not found / amenity not found in place
       200:
+<<<<<<< HEAD
         description: request executed successfully
+=======
+        description: request executed successfully
+>>>>>>> upstream/master

@@ -18,4 +18,8 @@
       400:
         description: Not a valid JSON
       200:
+<<<<<<< HEAD
         description: Request completed successfully
+=======
+        description: Request completed successfully
+>>>>>>> upstream/master

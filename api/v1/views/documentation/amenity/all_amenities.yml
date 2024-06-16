@@ -22,4 +22,8 @@ responses:
             description: The uuid of the instance
           name:
              type: string
+<<<<<<< HEAD
              description: amenity name
+=======
+             description: amenity name
+>>>>>>> upstream/master

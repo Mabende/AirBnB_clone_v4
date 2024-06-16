@@ -29,4 +29,8 @@ responses:
            description: uuid of the city's state
         name:
            type: string
+<<<<<<< HEAD
            description: city name
+=======
+           description: city name
+>>>>>>> upstream/master

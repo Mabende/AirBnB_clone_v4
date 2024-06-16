@@ -18,6 +18,7 @@ class Amenity(BaseModel, Base):
 
     def __init__(self, *args, **kwargs):
         """initializes Amenity"""
+<<<<<<< HEAD
         super().__init__(*args, **kwargs)#!/usr/bin/python
 """ holds class Amenity"""
 import models
@@ -38,4 +39,6 @@ class Amenity(BaseModel, Base):
 
     def __init__(self, *args, **kwargs):
         """initializes Amenity"""
+=======
+>>>>>>> upstream/master
         super().__init__(*args, **kwargs)

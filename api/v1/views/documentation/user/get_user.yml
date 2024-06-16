@@ -37,4 +37,8 @@ responses:
            description: user's first name
         last_name:
            type: string
+<<<<<<< HEAD
            description: user's last name
+=======
+           description: user's last name
+>>>>>>> upstream/master

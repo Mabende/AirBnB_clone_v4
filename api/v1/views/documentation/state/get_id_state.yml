@@ -28,4 +28,8 @@ responses:
           description: The uuid of the state instance
         name:
            type: string
+<<<<<<< HEAD
            description: State name
+=======
+           description: State name
+>>>>>>> upstream/master
