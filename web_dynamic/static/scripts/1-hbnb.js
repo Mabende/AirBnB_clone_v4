@@ -1,15 +1,16 @@
-const $ = window.$;
-$(document).ready(function () {
-  const amenities = {};
-  $('.popover li input').click(function () {
-    const amenityID = $(this).attr('data-id');
-    const amenityName = $(this).attr('data-name');
-    if ($(this).prop('checked') === true) {
-      amenities[amenityID] = amenityName;
-    } else {
-      delete amenities[amenityID];
+window.addEventListener('load', function () {
+  // task 2
+  const amenityIds = {};
+  $('input[type=checkbox]').change(function () {
+    if ($(this).prop('checked')) {
+      amenityIds[$(this).attr('data-id')] = $(this).attr('data-name');
+    } else if (!$(this).prop('checked')) {
+      delete amenityIds[$(this).attr('data-id')];
     }
-    const amenitiesL = Object.values(amenities);
-    $('.amenities h4').text(amenitiesL.join(', '));
+    if (Object.keys(amenityIds).length === 0) {
+      $('div.amenities h4').html('&nbsp');
+    } else {
+      $('div.amenities h4').text(Object.values(amenityIds).join(', '));
+    }
   });
 });
